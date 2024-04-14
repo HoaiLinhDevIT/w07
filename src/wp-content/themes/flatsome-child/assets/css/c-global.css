@@ -1,0 +1,38 @@
+/* C-global: */
+
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --c-primary-color: #000;
+    --c-heading-color: #000000;
+}
+
+body {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-size: 16px;
+}
+
+.absolute-footer {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--c-heading-color) !important;
+}
+
+.section-title-normal {
+    background: rgb(189,14,14) !important;
+background: linear-gradient(297deg, rgba(189,14,14,1) 0%, rgba(14,189,186,1) 100%) !important;
+}
+.section-title-normal {
+    font-weight: 600 !important;
+}
+
+.c-group-title span {
+    margin-left: 10px !important;
+}

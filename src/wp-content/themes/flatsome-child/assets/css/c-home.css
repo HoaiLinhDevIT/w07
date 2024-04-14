@@ -1,0 +1,113 @@
+a {
+    border-bottom: none !important;
+}
+
+/* 
+header .header-nav {
+    background: linear-gradient(to left, #87000e, #185149);
+    border-radius: 4px;
+    padding: 0 10px;
+    width: 1050px;
+}
+
+header .header-nav .menu-item a {
+    color: #000 !important;
+}
+
+header .header-nav .menu-item a {
+    color: #FFF !important;
+    font-weight: 400;
+}
+
+header .header-nav .menu-item.active a,
+header .header-nav .menu-item:hover a {
+    color: #D22026 !important;
+} */
+.header-bottom{
+    background-color: transparent!important;
+}
+.header-bottom > .container{
+    background: linear-gradient(to left, #87000e, #185149);
+}
+.header-bottom .hide-for-medium .nav>li>a{
+    color: #fff;
+}
+.header-bottom .hide-for-medium .nav>li.active>a{
+    color: yellow;
+}
+.stuck #masthead{
+    display: none;
+}
+/* c-post */
+.c-post{
+    display:  grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    margin: -20px -14px;
+
+}
+.c-post .post-item{
+    max-width: unset !important;
+}
+.c-post .post-item .is-divider{
+    display: none;
+}
+.c-post .post-item:nth-child(1) {
+    grid-area: 1 / 1 / span 2 / span 2;
+}
+
+.c-post .post-item:not(:first-of-type) .from_the_blog_excerpt {
+    display: none;
+    padding: 10px 20px;
+    /* margin: 2px 2px; */
+}
+/*end c-post */
+/* c-post2 */
+.c-post2 {
+    margin: -20px -14px;
+}
+
+.c-post2 .post-item .is-divider{
+    display: none;
+}
+
+/*end c-post2 */
+/* c-group */
+#c-scroll {
+    width: 300px !important;
+    height: 450px !important;
+}
+/*end  */
+/* c-footer-menu */
+#footer .box-image img {
+    max-width: 190px !important;
+    display: flex !important;
+}
+.c-footer-menu {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #43495a;
+    height: 30px;
+}
+
+
+.c-footer-menu .menu-item {
+    margin: 0 10px !important;
+}
+.c-footer-menu .menu-item:hover a{
+    color: red !important;
+}
+
+.c-footer-menu a {
+    color: #FFFFFF !important;
+}
+/*end c-footer-menu */
+
+
+footer .c-thongtin .menu-item + .menu-item {
+    margin: unset !important;
+}
+footer .c-thongtin .menu-item a {
+    margin-bottom: -0.9em !important;
+}
